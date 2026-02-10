@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "*") // frontend ile bağlantı için
+@CrossOrigin(origins = "*")
 public class ContactController {
 
     @Autowired
